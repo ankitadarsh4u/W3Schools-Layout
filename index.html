@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.w3schools.com</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+
+    <style>
+        body {
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        #header ul li {
+            list-style: none;
+            display: inline-block;
+            padding: 10px;
+            margin-left: 10px;
+
+        }
+
+
+        #header ul li img {
+            width: 50px;
+            height: 50px;
+        }
+
+        #sidebar{
+            background-color: rgb(73, 73, 109);
+        }
+
+        #sidebar ul li {
+            list-style: none;
+            margin-top: 30px;
+            
+        }
+
+        #sidebar ul li a {
+            text-decoration: none;
+            color: white;
+
+        }
+
+        #section {
+            background-color: rgb(21, 21, 50);
+        }
+
+        h1,
+        h3 {
+            color: white;
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            padding-top: 50px;
+
+        }
+
+        #section p {
+            color: white;
+            padding: 20px;
+            font-size: larger;
+        }
+        #footer{
+            background-color: rgb(234, 234, 239);
+
+        }
+        #footer ul li{
+            list-style: none;
+           
+            display: inline-block;
+            margin-left: 80px;
+            padding: 10px;
+
+        }
+        #footer ul li img{
+            width: 50px;
+            height: 50px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12" id="header">
+                <ul>
+                    <li><img src="logo.png"> </li>
+                    <li>Tutorials</li>
+                    <li>Exercises</li>
+                    <li>Certificates</li>
+                    <li>Services</li>
+                    <li><input type="search" placeholder="search"> </li>
+                    <li>Spaces</li>
+                    <li>Get Certified</li>
+                    <li> <button class="btn btn-primary">Login</button></li>
+                    <li><button class="btn btn-primary">Sign Up</button> </li>
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-2" id="sidebar">
+
+                <ul>
+                    <li><a href="#">HTML</a></li>
+                    <li><a href="#">CSS</a></li>
+                    <li><a href="#">JAVA</a></li>
+                    <li><a href="#">JS</a></li>
+                    <li><a href="#">BOOTSTRAP</a></li>
+                    <li><a href="#">JQUERY</a></li>
+                    <li><a href="#">PHP</a></li>
+                    <li><a href="#">REACT</a></li>
+                    <li><a href="#">NODE</a></li>
+                    <li><a href="#">MYSQL</a></li>
+                </ul>
+
+            </div>
+            <div class="col-10" id="section">
+
+                <h1>BOOTSTRAP VERSIONS</h1>
+                <h3><mark>Learn Bootstrap 3</h3></mark>
+
+                <p>Bootstrap 3 is the most stable version of Bootstrap, and it is still supported by the team for
+                    critical bugfixes and documentation changes.</p>
+
+                <h3><mark>Learn Bootstrap 4</h3></mark>
+
+                <p>Bootstrap 4 is a newer version of Bootstrap; with new components, faster stylesheet and more
+                    responsiveness. However, Internet Explorer 9 and down is not supported.</p>
+
+                <h3><mark>Learn Bootstrap 5</h3></mark>
+
+                <p>Bootstrap 5 is the newest version of Bootstrap; with a smooth overhaul. However, Internet Explorer 11
+                    and down is not supported, and jQuery is replaced with vanilla JavaScript</p>
+
+
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12" id="footer">
+
+                <ul>
+                    <li><img src="logo.png"> </li>
+                    <li>SPACES</li>
+                    <li>UPGRADE</li>
+                    <li>NEWS LETTER</li>
+                    <li>GET CERTIFIED</li>
+                    <li>REPORT ERROR</li>
+                </ul>
+
+            </div>
+            
+        </div>
+    </div>
+</body>
+
+</html>
